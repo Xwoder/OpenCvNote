@@ -16,7 +16,9 @@ if image is None:
 cv2.imshow("Image", image)
 
 # 生成一个随机的密钥图像，尺寸和原始图像相同
-key: np.ndarray = np.random.randint(0, 256, size=image.shape, dtype=np.uint8)
+key: np.ndarray = np.random.randint(0, 256,
+                                    size=image.shape,
+                                    dtype=np.uint8)
 # 显示密钥图像
 cv2.imshow("Key", key)
 
