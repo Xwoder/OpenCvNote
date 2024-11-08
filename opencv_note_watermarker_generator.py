@@ -21,4 +21,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # 保存图像
-cv2.imwrite("images/watermarker.bmp", binary_image)
+cv2.imwrite("images/watermark.bmp", binary_image)
