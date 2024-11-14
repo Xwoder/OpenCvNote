@@ -1,6 +1,16 @@
 import cv2
 import numpy as np
 
+"""
+演示 OpenCV 中，常用的方法：
+- imread
+- imwrite
+- namedWindow
+- imshow
+- waitKey
+- destroyAllWindows
+"""
+
 imageInputPath = 'images/Lena_gray.bmp'
 imageOutputPath = 'images/Lena_gray_copy.bmp'
 
